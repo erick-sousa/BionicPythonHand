@@ -12,5 +12,5 @@ After fully manufacturing the hand and making it work through the Arduino IDE, I
 ![Image of Matplotlib Graph](https://github.com/erick-sousa/BionicPythonHand/blob/main/pictures/Matplotlib%20Graph.png)
 
 In the [classes](classes.py) you will find the Classes that I developed to do a few tasks. 
--UI_Creation handles creating the majority of the TKinter elements used in the UI
--A
+- UI_Creation handles creating the majority of the TKinter elements used in the UI
+- Assignment_Functions intializes the object by creating object instances for each finger in the hand which is referenced by Class_UI in creating the buttons. This class also holds most of the comnmands used by the TKinter GUI
