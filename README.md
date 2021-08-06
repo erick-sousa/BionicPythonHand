@@ -11,6 +11,13 @@ After fully manufacturing the hand and making it work through the Arduino IDE, I
 ![Image of TKinter GUI](https://github.com/erick-sousa/BionicPythonHand/blob/main/pictures/Tkinter%20GUI.png)
 ![Image of Matplotlib Graph](https://github.com/erick-sousa/BionicPythonHand/blob/main/pictures/Matplotlib%20Graph.png)
 
-In the [classes](classes.py) you will find the Classes that I developed to do a few tasks. 
+In the [classes](classes.py) file you will find the Classes that I developed to do a few tasks. 
 - UI_Creation handles creating the majority of the TKinter elements used in the UI
 - Assignment_Functions intializes the object by creating object instances for each finger in the hand which is referenced by Class_UI in creating the buttons. This class also holds most of the comnmands used by the TKinter GUI
+
+The two classes work together to make the GUI work properly. The organization of the classes can be improved as a way to make the program more clairty. 
+
+In the [main](main.py) file, the classes are ran and some other remaining elements from the TKinter GUI are also created. Some elements, such as the Submit Angles button, I felt did not fit in the classes nicely, so it was left in the main file. The other major component of the main.py file is the Matplotlib element which creations a 3D plot of rough finger positions when the Submit Angles button is used.
+
+## Closing
+As stated there are certain flaws that I know about mainly in the organization of the code. As I improve my skills in created classes in Python I hope to fix some of the issues. Besides that, it all functions as intended. In order for the program to function in it's current state, it requres the pyfirmata library, information on this library can be found here [pyfirmata docs](https://pypi.org/project/pyFirmata/). The current setup uses an Arduino UNO on the COM3 port. These can be changed in the main file if you wish.
