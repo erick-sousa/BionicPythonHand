@@ -2,6 +2,7 @@
 
 ## Background
 This program stems from a project to design and create a functional bionic hand using an Arduino and 5 servo motors. All CAD models were made in Fusion360, and the parts were 3D printed with my Artillery Sidewinder X1. Below is a picture of the CAD model I created.
+
 ![Image of Bionic Hand CAD Model](https://github.com/erick-sousa/BionicPythonHand/blob/main/Hand%20CAD.PNG)
 
 ## This Repository 
