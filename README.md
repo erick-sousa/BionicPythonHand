@@ -13,3 +13,4 @@ After fully manufacturing the hand and making it work through the Arduino IDE, I
 
 In the [classes](classes.py) you will find the Classes that I developed to do a few tasks. 
 -UI_Creation handles creating the majority of the TKinter elements used in the UI
+-A
